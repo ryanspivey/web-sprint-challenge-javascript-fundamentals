@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-// Function scope lets functions reach outwardly to access variables.
+// Closure affects function scope which lets functions reach outwardly to access variables.
 
 
 
