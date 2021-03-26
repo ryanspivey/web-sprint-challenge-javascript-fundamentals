@@ -35,7 +35,7 @@ function summation(number) {
   }
   return sum;
 }
-//I would rarely use anything but an i, j, or k for an array index, but for the sake of the assingment, I used counter.
+//I would rarely use anything but an i, j, or k for an array index, but for the sake of the assignment, I used counter.
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
 // Given this zoo data from around the United States, follow the instructions below. Use the specific array methods in the requests below to solve the problems.
@@ -59,8 +59,13 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(array){
+    let displayNames = []
+
+    array.forEach(element =>
+       displayNames.push(`name: ${element.animal_name}, scientific: ${element.scientific_name}`));
+    console.log(displayNames);
+    return displayNames;
   }
   
 
